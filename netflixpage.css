@@ -170,4 +170,8 @@ a:visited {
         flex-direction: column;
         text-align: center;
     }
+
+    .faq-section {
+        height: 100vh;
+    }
  }
