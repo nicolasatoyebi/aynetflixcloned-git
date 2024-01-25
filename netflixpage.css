@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+.hero {
+    background-image:linear-gradient(to bottom, rgba(0,0,0), rgba(0,0,0, .2), rgba(0,0,0)), url(images/NG-en-20240101-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo-img {
+    height: 40px;
+}
+
+.bottom-border {
+    border-bottom: 8px solid #232323;
+}
+
+.hero-text {
+    margin-top: 180px;
+}
+
+.input-submit:hover {
+    background-color: #C11119 !important;
+}
+
+.section {
+    height: 80vh;
+}
+
+.big-text {
+    font-size: 52px;
+}
+
+.small-text {
+    font-size: 22px;
+}
+
+.tv-and-video {
+    position: relative;
+}
+
+/* .tv-img {
+    mix-blend-mode: multiply;
+} */
+
+.tv-video {
+    position: absolute;
+    top: 70px;
+    right: 100px;
+    /* z-index: -1; */
+}
+
+.download-text-small {
+    font-size: 26px;
+}
+
+.watch-text {
+    margin-left: 350px;
+    padding: 80px 0;
+}
+
+.watch-text-big {
+    font-size: 52px;
+    line-height: 1.1;
+}
+
+.watch-text-small {
+    font-size: 22px;
+    display: inline-block;
+    line-height: 1.2;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.faq-que {
+    border-radius: 0px !important;
+}
+
+.faq-que:hover {
+    background-color: #555 !important;
+}
+
+input::placeholder {
+    color: #9f9d9d !important;
+}
+
+.footer-section {
+    width: 70%;
+}
+
+.footer {
+    gap: 130px;
+}
+
+.footer-link {
+    list-style: none;
+}
+
+a:link,
+a:visited {
+    color: #acacac;
+    font-size: 14px;
+}
+
+.language-select {
+    width: 13%;
+    border: 0.5px solid rgba(255,255,255, .2);
+    border-radius: 5px;
+}
+
+.language {
+    border: none !important;
+}
